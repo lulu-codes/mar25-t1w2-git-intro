@@ -17,10 +17,6 @@ header {
     margin: 20px;
 }
 
-nav {
-
-}
-
 header {
     top: 0;
     width:auto;
@@ -28,8 +24,10 @@ header {
     padding: 20px;
 }
 
-button:hover {
-    background-color: lime;
+.nav {
+    button:hover {
+        background-color: lime;
+    }
 }
 
 main.movieList > section.movieCard {
@@ -46,10 +44,12 @@ main.movieList > section.movieCard {
 .movieCard {
     display: grid;
     justify-content: space-evenly;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    text-align: center;
     align-content:flex-start;
+    align-items: flex-start;
+    text-align: center;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
     padding: 20px;
     border: 2px solid black;
     border-radius: 10px;
