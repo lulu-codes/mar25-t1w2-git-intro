@@ -21,6 +21,17 @@ nav {
 
 }
 
+header {
+    top: 0;
+    width:auto;
+    position: sticky;
+    padding: 20px;
+}
+
+button:hover {
+    background-color: lime;
+}
+
 main.movieList > section.movieCard {
     background-color: dodgerblue;
 }
@@ -46,8 +57,8 @@ main.movieList > section.movieCard {
 }
 
 img {
-    width: 250px;
-    max-width: 250px;
+    width: 50%;
+    max-width: 50%;
     border: 3px solid white;
     align-content: center;
 }
