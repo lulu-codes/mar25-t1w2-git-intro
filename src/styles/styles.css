@@ -30,18 +30,18 @@ header {
     }
 }
 
-main.movieList > section.movieCard {
+main.movie-list > section.movie-card {
     background-color: dodgerblue;
 }
 
-.movieList {
+.movie-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 1rem;
     margin-top: 5rem;
 }
 
-.movieCard {
+.movie-card {
     display: grid;
     justify-content: space-evenly;
     align-content:flex-start;
